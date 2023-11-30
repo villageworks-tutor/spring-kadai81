@@ -1,11 +1,11 @@
--- ƒe[ƒuƒ‹‚ğ‰Šú‰»
+-- ãƒ†ãƒ¼ãƒ–ãƒ«ã‚’åˆæœŸåŒ–
 DELETE FROM stocks;
 DELETE FROM items;
--- itemsƒe[ƒuƒ‹‚ÌƒTƒ“ƒvƒ‹ƒŒƒR[ƒh
-INSERT INTO items (id, name, price, quantity) VALUES (1, 'ƒ‹[ƒ€ƒfƒjƒ€ƒWƒƒƒPƒbƒg', 4000, 3);
-INSERT INTO items (id, name, price, quantity) VALUES (2, '‚Ó‚ñ‚í‚èƒƒ“ƒs[ƒX', 5000, 5);
-INSERT INTO items (id, name, price, quantity) VALUES (3, '2wayƒgƒŒƒ“ƒ`ƒR[ƒg', 30000, 4);
--- stocksƒe[ƒuƒ‹‚ÌƒTƒ“ƒvƒ‹ƒŒƒR[ƒh
+-- itemsãƒ†ãƒ¼ãƒ–ãƒ«ã®ã‚µãƒ³ãƒ—ãƒ«ãƒ¬ã‚³ãƒ¼ãƒ‰
+INSERT INTO items (id, name, price, quantity) VALUES (1, 'ãƒ«ãƒ¼ãƒ ãƒ‡ãƒ‹ãƒ ã‚¸ãƒ£ã‚±ãƒƒãƒˆ', 4000, 3);
+INSERT INTO items (id, name, price, quantity) VALUES (2, 'ãµã‚“ã‚ã‚Šãƒ¯ãƒ³ãƒ”ãƒ¼ã‚¹', 5000, 5);
+INSERT INTO items (id, name, price, quantity) VALUES (3, '2wayãƒˆãƒ¬ãƒ³ãƒã‚³ãƒ¼ãƒˆ', 30000, 4);
+-- stocksãƒ†ãƒ¼ãƒ–ãƒ«ã®ã‚µãƒ³ãƒ—ãƒ«ãƒ¬ã‚³ãƒ¼ãƒ‰
 INSERT INTO stocks (id, item_id, quantity, checked_at) VALUES (1, 1, 3, '2020/04/12 10:00:00');
 INSERT INTO stocks (id, item_id, quantity, checked_at) VALUES (2, 1, 1, '2020/04/13 11:00:00');
 INSERT INTO stocks (id, item_id, quantity, checked_at) VALUES (3, 1, -1, '2020/04/14 12:00:00');
